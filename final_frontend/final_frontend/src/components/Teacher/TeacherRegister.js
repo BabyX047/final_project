@@ -15,14 +15,10 @@ function TeacherRegister(){
                             <form>
                                 <div className="mb-3">
                                     <label for="exampleInputEmail1" className="form-label">Full name</label>
-                                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                                    <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                                 </div>
                                 <div className="mb-3">
                                     <label for="exampleInputEmail1" className="form-label">Email</label>
-                                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-                                </div>
-                                <div className="mb-3">
-                                    <label for="exampleInputEmail1" className="form-label">Username</label>
                                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                                 </div>
                                 <div className="mb-3">
@@ -30,10 +26,20 @@ function TeacherRegister(){
                                     <input type="password" className="form-control" id="exampleInputPassword1"/>
                                 </div>
                                 <div className="mb-3">
+                                    <label for="exampleInputEmail1" className="form-label">Qualifications</label>
+                                    <textarea className="form-control"></textarea>
+                                    <div id="text" class="form-text">Scratch, Word, Excel or Computer Hardware.</div>
+                                </div>
+                                <div className="mb-3">
+                                    <label for="exampleInputEmail1" className="form-label">Mobile Number</label>
+                                    <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                                </div>
+                                <div className="mb-3">
                                     <label for="exampleInputEmail1" className="form-label">Skills</label>
                                     <textarea className="form-control"></textarea>
-                                    <div id="emailHelp" class="form-text">Scratch, Word, Excel or Computer Hardware.</div>
+                                    <div id="text" class="form-text">Scratch, Word, Excel or Computer Hardware.</div>
                                 </div>
+                                
                                 <button type="submit" className="btn btn-primary">Register</button>
                             </form>
                         </div>

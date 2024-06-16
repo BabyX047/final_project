@@ -1,10 +1,17 @@
 import {Link} from 'react-router-dom';
-import {useEffect} from 'react';
+import {useEffect, useState} from 'react';
+import axios from 'axios';
 
+const baseurl ='http://127.0.0.1:8000/api';
 function AllTeachers() {
+    const [teachers,setTeacher]=useState(null);
     useEffect(() => {
       document.title = "Teachers";
-    });
+      axios.get(baseurl+'/teacher/').then((response)=>{
+        setTeacher(response.data);
+      });
+    },[]);
+    console.log(teachers);
     return(
         <div className="container mt-3">
         {/* All Teachers */}

@@ -13,7 +13,7 @@ function Home() {
       <div className="row mb-4">
         <div className="col-md-3">
           <div className="card">
-          <Link to="/detail/1"><img src="logo512.png" className="card-img-top" alt="..."/></Link>
+          <Link to="/detail/1"><img src="scratch.png" className="card-img-top" alt="..."/></Link>
             <div className="card-body">
               <h5 className="card-title"><Link to="/detail/1">Scratch</Link></h5>
             </div>
@@ -21,7 +21,7 @@ function Home() {
         </div>
         <div className="col-md-3">
           <div className="card">
-          <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+          <a href="#"><img src="office.png" className="card-img-top" alt="..."/></a>
             <div className="card-body">
               <h5 className="card-title"><a href="#">Ms-Office</a></h5>
             </div>
@@ -29,17 +29,17 @@ function Home() {
         </div>
         <div className="col-md-3">
           <div className="card">
-          <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+          <a href="#"><img src="word.png" className="card-img-top" alt="..."/></a>
             <div className="card-body">
-              <h5 className="card-title"><a href="#">Course Title</a></h5>
+              <h5 className="card-title"><a href="#">Ms-Word</a></h5>
             </div>
           </div>
         </div>
         <div className="col-md-3">
           <div className="card">
-          <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+          <a href="#"><img src="excel.png" className="card-img-top" alt="..."/></a>
             <div className="card-body">
-              <h5 className="card-title"><a href="#">Course Title</a></h5>
+              <h5 className="card-title"><a href="#">Ms-Excel</a></h5>
             </div>
           </div>
         </div>
