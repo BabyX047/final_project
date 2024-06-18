@@ -33,6 +33,7 @@ import AllTeachers from './AllTeachers';
 import CategoryCourses from './CategoryCourses';
 
 import { Routes as Switch,Route } from 'react-router-dom';
+import TeacherLogout from './Teacher/TeacherLogout';
 
 function Main() {
   return (
@@ -56,7 +57,7 @@ function Main() {
             <Route path="/teacher-add-course" element={<TeacherAddCourse />} />
             <Route path="/teacher-profile-settings" element={<TeacherProfileSetting />} />
             <Route path="/teacher-change-password" element={<TeacherChangePassword />} />
-            <Route path="/teacher-logout" element={<TeacherLogin />} />
+            <Route path="/teacher-logout" element={<TeacherLogout />} />
 
             //User
             <Route path="/user-login" element={<Login />} />
