@@ -1,4 +1,4 @@
-This is a Functional LMS with features being added day in day out.
+This is a Functional LMS with features being added day in and day out.
 I have primarily used React js for all my front-end needs.
 to run the front-end server, after cloning the repository to your local machine, run the command
 
